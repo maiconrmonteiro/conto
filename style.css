@@ -78,25 +78,25 @@ section.imagem > p {
 
 section#img1 {
     background-image: url(imagens/marNoite.jpg);
-    background-position: left;
+    background-position: right center;
     background-size: cover;
 }
 
 section#img2 {
     background-image: url(imagens/noiteDiferente.jpg);
-    background-position: left;
+    background-position: right right;
     background-size: cover;
 }
 
 section#img3 {
     background-image: url(imagens/sereia.png);
-    background-position: left;
+    background-position: center center;
     background-size: cover;
 }
 
 section#img4 {
     background-image: url(imagens/universo.jpg);
-    background-position: left;
+    background-position: center center;
     background-size: cover;
 }
 
@@ -104,19 +104,19 @@ section#img4 {
 
 section#img5 {
     background-image: url(imagens/bateira.jpg);
-    background-position: left;
+    background-position: center center;
     background-size: cover;
 }
 
 section#img6 {
     background-image: url(imagens/assustado.jpg);
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
 }
 
 section#imgPai {
     background-image: url(imagens/imgPai.png);
-    background-position: right center;
+    background-position: top center top;
     background-size: cover;
 }
 

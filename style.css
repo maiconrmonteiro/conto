@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Amatic SC', 'Advent Pro', sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: #01EBEC;
+}
+
+header {
+    background-color: #222CF2;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-size: 2vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1em;
+    padding-left: 30px;
+}
+
+section > p {
+    padding-bottom: 1em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+    line-height: 1.2em;
+}
+
+section.imagem {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.651);
+    background-attachment: fixed;
+    
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: #01ececc7;
+    color: black;
+    border-radius: 5px;
+    padding: 16px;
+    line-height: 1.5em;
+}
+
+section#img1 {
+    background-image: url(imagens/marNoite.jpg);
+    background-position: left;
+    background-size: cover;
+}
+
+section#img2 {
+    background-image: url(imagens/noiteDiferente.jpg);
+    background-position: left;
+    background-size: cover;
+}
+
+section#img3 {
+    background-image: url(imagens/sereia.png);
+    background-position: left;
+    background-size: cover;
+}
+
+section#img4 {
+    background-image: url(imagens/universo.jpg);
+    background-position: left;
+    background-size: cover;
+}
+
+
+
+section#img5 {
+    background-image: url(imagens/bateira.jpg);
+    background-position: left;
+    background-size: cover;
+}
+
+section#img6 {
+    background-image: url(imagens/assustado.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#imgPai {
+    background-image: url(imagens/imgPai.png);
+    background-position: right center;
+    background-size: cover;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
